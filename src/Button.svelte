@@ -11,7 +11,7 @@
 
 <style>
 	button {
-	  background: #ff3e00;
+	  background: red;
 	  color: white;
 	  border: none;
 	  padding: 8px 12px;
@@ -24,5 +24,5 @@
 </button>
 <hr/>
 <button on:click={handleClick2}>
-  Double Clicked {count2} {count2 === 1 ? 'time' : 'times'}
+   Clicked {count2} {count2 === 1 ? 'time' : 'times'}
 </button>
